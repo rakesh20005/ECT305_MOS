@@ -1,0 +1,10 @@
+* C:\Users\iiitk\OneDrive\Desktop\rak\90nm_PMOS.asc
+M1 N001 N003 0 N002 PMOS l=90nm w=405nm
+vsd N001 0 -1.2
+vsg N003 0 -1..2
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\iiitk\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.dc vsg 0 -1.2 .1
+.backanno
+.end
